@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/popup.css"/>
+  <script type="text/javascript" src="javascripts/core.js"></script>
+  <script type="text/javascript" src="javascripts/hotkey_storage.js"></script>
+  <script type="text/javascript" src="javascripts/popup.js"></script>
+</head>
+<body id="popup">
+<div id="tips" style="display: none;">
+  <div id="tipContent"><!--tips--></div>
+  <img id="loadingIcon" src="stylesheets/images/loader.gif"/>
+</div>
+<ul id="select-block">
+  <li><a href="#" id="openApp"></a></li>
+  <li><a href="#" id="openMindmap"></a></li>
+</ul>
+<hr id="hRuler01"/>
+<ul>
+  <li>
+    <a href="#" id="clear_element"><!-- 删除页面元素 -->
+      <span id="clear_element_text"></span>
+      <span class="shortcut" id="clear_element_sc"></span>
+    </a>
+  </li>
+  <li>
+    <a href="#" id="capture_window"><!--截取可视部分-->
+      <span id="capture_window_text"></span>
+      <span class="shortcut" id="capture_window_sc"></span>
+    </a>
+  </li>
+  <li>
+    <a href="#" id="capture_special_page"><!--截取特殊可视部分--></a>
+  </li>
+  <li>
+    <a href="#" id="capture_area"><!--选择区域截取-->
+      <span id="capture_area_text"></span>
+      <span class="shortcut" id="capture_area_sc"></span>
+    </a>
+  </li>
+  <li>
+    <a href="#" id="capture_webpage"><!--截取整个网页-->
+      <span id="capture_webpage_text"></span>
+      <span class="shortcut" id="capture_webpage_sc"></span>
+    </a>
+  </li>
+  <li>
+    <a href="#" id="capture_screen"><!--截取当前屏幕-->
+      <span id="capture_screen_text"></span>
+      <span class="shortcut" id="capture_screen_sc"></span>
+    </a>
+  </li>
+</ul>
+<hr id="hRuler02"/>
+<div id="config-block">
+  <a href="#" id="config"><!--设置--></a>
+</div>
+</body>
+</html>

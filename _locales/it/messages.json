@@ -1,0 +1,143 @@
+{
+	"capture_area":{
+		"message":"Cattura\u00A0area selezionata"
+	},
+	"capture_screen":{
+		"message":"Capture screen"
+	},
+	"capture_screen_tip":{
+		"message":"Trascinare e Cattura (Premere Esc per uscire)"
+	},
+	"capture_webpage":{
+		"message":"Tutta la pagina"
+	},
+	"capture_window":{
+		"message":"Sichtbarer screenshot"
+	},
+	"option":{
+		"message":"Opzione"
+	},
+	"options":{
+		"message":"Quick Markup opzione"
+	},
+	"save_and_close":{
+		"message":"Salva e chiudi"
+	},
+	"quality_setting":{
+		"message":"Schermata Impostazioni di qualità:"
+	},
+	"lossy":{
+		"message":"lossy screenshot"
+	},
+	"lossless":{
+		"message":"lossless screenshot"
+	},
+	"shortcut_setting":{
+		"message":"Scorciatoia:"
+	},
+	"shortcutsetting_text":{
+		"message":"Consentono di scelta rapida"
+	},
+	"hot_key_conflict":{
+		"message":"Scorciatoie conflitto."
+	},
+	"shopping_assist_setting":{
+		"message":"Shopping Assistant:"
+	},
+	"shopping_assist":{
+		"message":"Attiva assistente personale può aiutarti a trovare il tuo prodotto preferito."
+	},
+	"capturing":{
+		"message":"Cattura..."
+	},
+	"copied":{
+		"message":"Copiato"
+	},
+	"copyFailed":{
+		"message":"Copia\u00A0non riuscita"
+	},
+	"doCopy":{
+		"message":"Copia"
+	},
+	"doMarkUp":{
+		"message":"Mark Up!"
+	},
+	"doSave":{
+		"message":"Salva"
+	},
+	"doUpload":{
+		"message":"Carica (pubblico)"
+	},
+	"extDescription":{
+		"message":"Cattura la schermata intera o qualunque porzione. Annotaci sopra con rettangoli, cerchi, frecce linee e testo.Condividi con un solo click"
+	},
+	"name":{
+		"message":"Quick Markup: Cattura"
+	},
+	"openApp":{
+		"message":"Aprire l'immagine locale e mark up"
+	},
+	"openMindmap":{
+		"message":"Creare mappe mentali"
+	},
+	"save_fail":{
+		"message":"Ci dispiace, non \u00E8 riuscito a salvare l'immagine."
+	},
+	"save_image":{
+		"message":"Salva immagine"
+	},
+	"selectedCaptureOK":{
+		"message":"Cattura"
+	},
+	"cancel":{
+		"message":"Annullare"
+	},
+	"tooBig":{
+		"message":"L'immagine \u00E8 troppo grande e verr\u00E0 troncato."
+	},
+	"uploadComplete":{
+		"message":"Caricamento completato!"
+	},
+	"uploadFailed":{
+		"message":"Ci dispiace, caricati fallito, si prega di controllare la rete e riprovare."
+	},
+	"uploaded":{
+		"message":"Caricato"
+	},
+	"uploading":{
+		"message":"Caricamento in corso..."
+	},
+	"loading":{
+		"message":"La pagina viene caricata, si prega di attendere."
+	},
+	"tip_markup1":{
+		"message":"Cominciare è facile ed è gratuito"
+	},
+	"tip_markup2":{
+		"message":"Annotaci sopra con rettangoli, cerchi, frecce linee e testo;"
+	},
+	"tip_markup3":{
+		"message":"Modifica e visualizza i tuoi documenti da qualsiasi computer o smartphone;"
+	},
+	"tip_markup4":{
+		"message":"Condividi il tuo lavoro."
+	},
+	"tip_upload":{
+		"message":"La tua immagine sarà cancellato automaticamente dopo circa 30 giorni."
+	},
+	"tip_save":{
+		"message":"Salva schermata sul computer."
+	},
+	"tip_copy":{
+		"message":"Copia immagine negli Appunti."
+	},
+	"untitled":{
+		"message":"Senza titolo"
+	},
+  "clear_element":{
+    "message":"elemento trasparente"
+  },
+  "clear_esc":{
+    "message":"Exit (ESC)"
+  }
+}

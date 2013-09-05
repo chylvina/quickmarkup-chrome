@@ -1,0 +1,143 @@
+{
+	"capture_area":{
+		"message":"Interception de la zone s\u00E9lectionn\u00E9e"
+	},
+	"capture_screen":{
+		"message":"Capture d'écran"
+	},
+	"capture_screen_tip":{
+		"message":"Faites glisser et Capture (Appuyez sur Echap pour quitter)"
+	},
+	"capture_webpage":{
+		"message":"Capture page compl\u00E8te"
+	},
+	"capture_window":{
+		"message":"Capture page visible"
+	},
+	"option":{
+		"message":"Option"
+	},
+	"options":{
+		"message":"Quick Markup options"
+	},
+	"save_and_close":{
+		"message":"Enregistrer & Fermer"
+	},
+	"quality_setting":{
+		"message":"Param\u00e8tres de qualit\u00e9:"
+	},
+	"lossy":{
+		"message":"Capture compress\u00e9e"
+	},
+	"lossless":{
+		"message":"Capture sans perte"
+	},
+	"shortcut_setting":{
+		"message":"Param\u00e8tre du raccourci:"
+	},
+	"shortcutsetting_text":{
+		"message":"Activer les raccourcis clavier"
+	},
+	"hot_key_conflict":{
+		"message":"Conflit raccourcis."
+	},
+	"shopping_assist_setting":{
+		"message":"Param\u00e8tre Shopping Assistant:"
+	},
+	"shopping_assist":{
+		"message":"Activer assistant shopping peut vous aider à trouver votre produit préféré."
+	},
+	"capturing":{
+		"message":"Capturer..."
+	},
+	"copied":{
+		"message":"Copi\u00E9"
+	},
+	"copyFailed":{
+		"message":"Copie a \u00E9chou\u00E9"
+	},
+	"doCopy":{
+		"message":"Copier"
+	},
+	"doMarkUp":{
+		"message":"Mark Up!"
+	},
+	"doSave":{
+		"message":"Enregistr\u00E9"
+	},
+	"doUpload":{
+		"message":"Importer (publique)"
+	},
+	"extDescription":{
+		"message":"Capturez une page compl\u00E8te ou une partie, annotez-la avec des rectangles, des cercles, des fl\u00E8ches, des lign"
+	},
+	"name":{
+		"message":"Quick Markup: Capture d'\u00E9cran"
+	},
+	"openApp":{
+		"message":"Ouvrir l'image locale et mark up"
+	},
+	"openMindmap":{
+		"message":"Créer mind map"
+	},
+	"save_fail":{
+		"message":"D\u00E9sol\u00E9, pas r\u00E9ussi \u00E0 sauver le screenshot."
+	},
+	"save_image":{
+		"message":"Enregistrer Image"
+	},
+	"selectedCaptureOK":{
+		"message":"Capture"
+	},
+	"cancel":{
+		"message":"Annuler"
+	},
+	"tooBig":{
+		"message":"L'image est trop grande et sera tronqu\u00E9."
+	},
+	"uploadComplete":{
+		"message":"Importation termin\u00E9e!"
+	},
+	"uploadFailed":{
+		"message":"D\u00E9sol\u00E9, t\u00E9l\u00E9charger \u00E9chou\u00E9, s'il vous pla\u00EEt v\u00E9rifier le r\u00E9seau et essayez \u00E0 nouveau."
+	},
+	"uploaded":{
+		"message":"Import\u00E9"
+	},
+	"uploading":{
+		"message":"Importation en cours..."
+	},
+	"loading":{
+		"message":"Chargement de la page, patientez…"
+	},
+	"tip_markup1":{
+		"message":"c'est simple et gratuit"
+	},
+	"tip_markup2":{
+		"message":"annotez-la avec des rectangles, des cercles, des flèches, des lignes et du texte;"
+	},
+	"tip_markup3":{
+		"message":"consultez et modifiez vos documents à partir de n'importe quel ordinateur ou smartphone;"
+	},
+	"tip_markup4":{
+		"message":"téléverser en un clic pour partager."
+	},
+	"tip_upload":{
+		"message":"Votre capture d'écran sera automatiquement supprimé au bout d'environ 30 jours."
+	},
+	"tip_save":{
+		"message":"Enregistrer capture d'écran sur votre ordinateur."
+	},
+	"tip_copy":{
+		"message":"Copie d'écran dans le presse papier."
+	},
+	"untitled":{
+		"message":"Sans titre"
+	},
+  "clear_element":{
+    "message":"élément clair"
+  },
+  "clear_esc":{
+    "message":"Sortie (ESC)"
+  }
+}

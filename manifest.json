@@ -1,0 +1,61 @@
+{
+	"version": "5.1.9",
+	"manifest_version": 2,
+	"name": "__MSG_name__",
+	"description": "__MSG_extDescription__",
+	"icons": {
+	  "128": "images/icon128.png",
+	  "16": "images/icon16.png",
+	  "32": "images/icon32.png",
+	  "48": "images/icon48.png",
+	  "64": "images/icon64.png"
+	},
+	"default_locale": "en",
+	"browser_action": {
+	  "default_icon": "images/icon19.png",
+	  "default_popup": "popup.html"
+	},
+	"content_scripts": [
+	{
+	  "css": [ "stylesheets/style.css" ],
+	  "js": [ "javascripts/page.js", "javascripts/shortcut.js" ],
+	  "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*" ],
+	  "run_at": "document_end"
+	},
+	{
+	  "js": [ "javascripts/isLoad.js" ],
+	  "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file://*/*" ],
+	  "run_at": "document_start"
+	},
+	{
+	  "js": [ "javascripts/shoppingAssist.js" ],
+	  "matches": [ "http://*/*" ],
+	  "run_at": "document_start"
+	},
+  {
+    "all_frames": true,
+    "js": [ "javascripts/adblock.js" ],
+    "matches": [ "http://*/*", "https://*/*" ],
+    "run_at": "document_start"
+  }
+	],
+	"permissions": ["tabs", "<all_urls>", "notifications", "contextMenus"],
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self' https://cdn.quick-markup.com https://d1vux6a1qckdp3.cloudfront.net",
+	"plugins": [ {
+	  "path": "plugin/screen_capture.dll"
+	}, {
+	  "path": "plugin/screen_capture.so"
+	}, {
+	  "path": "plugin/screen_capture_64.so"
+	}, {
+	  "path": "plugin/screen_capture.plugin"
+	} ],
+	"background": {
+	  "page": "background.html"
+	},
+	"options_page": "options.html",
+	"web_accessible_resources": [
+		"stylesheets/style.css",
+		"javascripts/page_context.js"
+	]
+}

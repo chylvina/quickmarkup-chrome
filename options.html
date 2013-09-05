@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title> Quick Markup Options </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/options.css"/>
+</head>
+<body>
+<div class="contentBox">
+  <div id="header">
+    <h1 id="optionTitle"></h1>
+  </div>
+
+  <!-- Quality -->
+  <h4 id="screenshootQualitySetting" style="display: none;"></h4>
+
+  <div class="section-content" style="display: none;">
+    <div>
+      <label>
+        <input id="lossy" type="radio" name="quality">
+        <span id="lossyScreenShot" for="lossy"></span>
+      </label>
+      &nbsp;
+      <label>
+        <input id="lossless" type="radio" name="quality">
+        <span id="losslessScreenShot" for="lossless"></span>
+      </label>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <!-- Shortcut -->
+  <h4 id="shoppingAssistSetting">Shopping Assist Setting</h4>
+
+  <div id="shoppingAssistContainer" style="margin: 2px 0 0 56px;">
+    <input type="checkbox" id="shoppingAssist">
+    <label for="shoppingAssist" id="shoppingAssistText" style="padding-left: 20px;"></label>
+  </div>
+
+  <!-- Screen Shot -->
+  <div id="shortcutSettingDiv" style="margin: 0 0 5px 0">
+    <h4 id="shorcutSetting"></h4>
+
+    <div style="margin: 2px 0 0 56px">
+      <input type="checkbox" id="settingShortcut">
+      <label for="settingShortcut" id="settingShortcutText"></label>
+    </div>
+    <div id="hot-key-setting">
+      <span class="hot-key">
+        <label for="clear-element-hot-key" class="capture-text" id="clear-element-text">asdasd</label>
+        <span>Ctrl+Alt+<select id="clear-element-hot-key"></select></span>
+      </span>
+      <span class="hot-key">
+        <label for="area-capture-hot-key" class="capture-text" id="area-capture-text"></label>
+        <span>Ctrl+Alt+<select id="area-capture-hot-key"></select></span>
+      </span>
+      <span class="hot-key">
+        <label for="viewport-capture-hot-key" class="capture-text" id="viewport-capture-text"></label>
+        <span>Ctrl+Alt+<select id="viewport-capture-hot-key"></select></span>
+      </span>
+      <span class="hot-key">
+        <label for="full-page-capture-hot-key" class="capture-text" id="full-page-capture-text"></label>
+        <span>Ctrl+Alt+<select id="full-page-capture-hot-key"></select></span>
+      </span>
+      <span id="screen-capture-hot-key-set-wrapper" class="hot-key">
+        <label for="screen-capture-hot-key" class="capture-text" id="screen-capture-text"></label>
+        <span>Ctrl+Alt+<select id="screen-capture-hot-key"></select></span>
+      </span>
+    </div>
+    <div id="error-info"></div>
+  </div>
+  <div class="closeBtn">
+    <button id="saveAndClose"></button>
+  </div>
+</div>
+<embed id="pluginobj" width="0" height="0" type="application/x-screencapture">
+  <script src="javascripts/core.js"></script>
+  <script src="javascripts/hotkey_storage.js"></script>
+  <script src="javascripts/ui.js"></script>
+  <script src="javascripts/options.js"></script>
+</body>
+</html>

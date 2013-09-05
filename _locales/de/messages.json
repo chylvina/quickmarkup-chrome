@@ -1,0 +1,143 @@
+{
+	"capture_area":{
+		"message":"Capture ausgew\u00E4hlten Bereich"
+	},
+	"capture_screen":{
+		"message":"Capture screen"
+	},
+	"capture_screen_tip":{
+		"message":"Ziehen und Capture (ESC verlassen)"
+	},
+	"capture_webpage":{
+		"message":"Kompletter screenshot"
+	},
+	"capture_window":{
+		"message":"Capture sichtbare teil"
+	},
+	"option":{
+		"message":"Option"
+	},
+	"options":{
+		"message":"Optionen Quick Markup"
+	},
+	"save_and_close":{
+		"message":"Speichern & Schließen"
+	},
+	"quality_setting":{
+		"message":"Einstellungen Screenshot Qualität:"
+	},
+	"lossy":{
+		"message":"Verlustbehafteter Screenshot"
+	},
+	"lossless":{
+		"message":"Verlustfreier Screenshot"
+	},
+	"shortcut_setting":{
+		"message":"Shortcut-Set:"
+	},
+	"shortcutsetting_text":{
+		"message":"Ermöglichen shortcut"
+	},
+	"hot_key_conflict":{
+		"message":"Shortcuts Konflikt."
+	},
+	"shopping_assist_setting":{
+		"message":"Shopping-Assistant Set:"
+	},
+	"shopping_assist":{
+		"message":"Aktivieren Shopping-Assistant Ihnen helfen, Ihre Lieblings-Ware."
+	},
+	"capturing":{
+		"message":"Aufnahme..."
+	},
+	"copied":{
+		"message":"Kopiert"
+	},
+	"copyFailed":{
+		"message":"Kann nicht kopiert werden"
+	},
+	"doCopy":{
+		"message":"Kopieren"
+	},
+	"doMarkUp":{
+		"message":"Mark Up!"
+	},
+	"doSave":{
+		"message":"Speichem"
+	},
+	"doUpload":{
+		"message":"Hochladen (Öffentlichkeit)"
+	},
+	"extDescription":{
+		"message":"Abfangen kann jede Web-Seite oder \u00F6ffnen Sie ein lokales Bild, und markieren Sie die Form, Text, Symbole, Mind-Mapping-Informationen und schlie\u00DFlich zu exportieren, um PNG / JPG-Format. F\u00FCr die Organisation von Ideen und arbeiten, planen und verfolgen Projekte, um das Problem von image-based Informationsaustausch Adresse."
+	},
+	"name":{
+		"message":"Quick Markup: Screen Capture"
+	},
+	"openApp":{
+		"message":"Open lokalen bild-und mark up"
+	},
+	"openMindmap":{
+		"message":"Erstellen mindmap"
+	},
+	"save_fail":{
+		"message":"Sorry, speichern fehlgeschlagen."
+	},
+	"save_image":{
+		"message":"Bild speichern"
+	},
+	"selectedCaptureOK":{
+		"message":"OK"
+	},
+	"cancel":{
+		"message":"Abbruch"
+	},
+	"tooBig":{
+		"message":"Das Bild ist zu gro\u00DF und wird abgeschnitten."
+	},
+	"uploadComplete":{
+		"message":"Importation termin\u00E9e!"
+	},
+	"uploadFailed":{
+		"message":"Sorry,\u00A0upload fehlgeschlagen, bitte \u00FCberpr\u00FCfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
+	},
+	"uploaded":{
+		"message":"Hochgeladen"
+	},
+	"uploading":{
+		"message":"Wird Hochgeladen..."
+	},
+	"loading":{
+		"message":"Die Seite wird geladen, bitte warten."
+	},
+	"tip_markup1":{
+		"message":"Es ist ganz einfach und kostenlos"
+	},
+	"tip_markup2":{
+		"message":"markieren Sie die Form, Text, Symbole, Mind-Mapping-Informationen;"
+	},
+	"tip_markup3":{
+		"message":"Sie können Ihre Dokumente von jedem Computer oder Smartphone aus bearbeiten und anzeigen;"
+	},
+	"tip_markup4":{
+		"message":"Dokumente mit anderen teilen."
+	},
+	"tip_upload":{
+		"message":"Der Screenshot wird automatisch nach ca. 30 Tagen gelöscht werden."
+	},
+	"tip_save":{
+		"message":"Save screenshot auf Ihrem Computer."
+	},
+	"tip_copy":{
+		"message":"Copy-Screenshot in die Zwischenablage."
+	},
+	"untitled":{
+		"message":"Unbenanntes"
+	},
+  "clear_element":{
+    "message":"klare Element"
+  },
+  "clear_esc":{
+    "message":"Exit (ESC)"
+  }
+}

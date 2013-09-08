@@ -145,5 +145,8 @@
   },
   "clear_esc":{
     "message":"Exit (ESC)"
+  },
+  "promotiontip":{
+    "message":"A set of awesome tools including eyedropper and ruler for web designers, frontend developers, etc."
   }
 }

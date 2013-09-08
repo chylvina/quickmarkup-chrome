@@ -337,9 +337,14 @@ button.green:hover span {
 }
 
 /* ------------ Promotion ------------------ */
+#ad-box-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
 #ad-box-top {
   width: 398px;
-  margin: 0;
+  margin: auto;
 }
 
 #ad-box-bottom {
@@ -373,5 +378,5 @@ button.green:hover span {
 }
 
 .awesome-clock {
-  background: url(/stylesheets/images/awesome_clock.png) 0 0 no-repeat;
+  background: url(/stylesheets/images/promotion.png) 0 0 no-repeat;
 }

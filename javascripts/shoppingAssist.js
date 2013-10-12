@@ -60,7 +60,7 @@ function inject() {
 document.addEventListener('DOMContentLoaded', function () {
   chrome.extension.sendRequest({msg: "getOptions"},
       function(response) {
-        if (response.serviceConfirmed == "t1") {
+        if (response && response.serviceConfirmed == "t1") {
           inject();
         }
       });

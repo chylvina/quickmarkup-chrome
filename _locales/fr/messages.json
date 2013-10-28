@@ -72,7 +72,7 @@
 		"message":"Capturez une page compl\u00E8te ou une partie, annotez-la avec des rectangles, des cercles, des fl\u00E8ches, des lign"
 	},
 	"name":{
-		"message":"Quick Markup: Capture d'\u00E9cran"
+		"message":"Screen Capture"
 	},
 	"openApp":{
 		"message":"Ouvrir l'image locale et mark up"

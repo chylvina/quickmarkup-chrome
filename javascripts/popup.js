@@ -41,10 +41,6 @@ function toDo(evt) {
       bg.screenshot.captureSpecialPage();
       window.close();
       break;
-    case 'capture_screen':
-      bg.screenshot.captureScreen();
-      window.close();
-      break;
     case 'openApp':
       window.close();
       chrome.tabs.create({
@@ -68,12 +64,10 @@ function enableAll() {
   $("capture_special_page").style.display = "none";
 
   if (isWindowsOrLinux) {
-    $("capture_screen").style.display = "block";
     $('config').style.display = 'block';
     $('hRuler02').style.display = 'block';
   }
   else {
-    $("capture_screen").style.display = "none";
     $('config').style.display = 'none';
     $('hRuler01').style.display = 'none';
     $('hRuler02').style.display = 'none';
@@ -93,12 +87,8 @@ function enableSpecial(isChrome) {
   $("capture_window").style.display = "none";
 
   if(isWindowsOrLinux) {
-    $("capture_screen").style.display = "block";
     $('config').style.display = 'block';
     $('hRuler02').style.display = 'block';
-  }
-  else {
-    $("capture_screen").style.display = "none";
   }
 
   $("tips").style.display = "none";
@@ -111,7 +101,6 @@ function showTip(tip, showIcon) {
   $("capture_webpage").style.display = "none";
   $("capture_special_page").style.display = "none";
   $("capture_window").style.display = "none";
-  $("capture_screen").style.display = "none";
   $("select-block").style.display = "none";
   $("config-block").style.display = "none";
   $("hRuler01").style.display = "none";
@@ -169,7 +158,6 @@ function init() {
   if (HotKey.isEnabled() && HotKey.get('fullpage') != '@')
     $('capture_webpage_sc').innerText = 'Ctrl+Alt+' + HotKey.get('fullpage');
   if (HotKey.isEnabled() && HotKey.get('screen') != '@')
-    $('capture_screen_sc').innerText = 'Ctrl+Alt+' + HotKey.get('screen');
 
   // localization
   i18nReplace("openApp", "openApp");
@@ -179,7 +167,6 @@ function init() {
   i18nReplace("capture_area_text", "capture_area");
   i18nReplace("capture_webpage_text", "capture_webpage");
   i18nReplace("capture_special_page", "capture_window");
-  i18nReplace("capture_screen_text", "capture_screen");
   i18nReplace("config", "option");
 
   // event listener
@@ -188,7 +175,6 @@ function init() {
   $('capture_area').addEventListener('click', toDo, false);
   $('capture_webpage').addEventListener('click', toDo, false);
   $('capture_special_page').addEventListener('click', toDo, false);
-  $('capture_screen').addEventListener('click', toDo, false);
   $('openApp').addEventListener('click', toDo, false);
   $('openMindmap').addEventListener('click', toDo, false);
 

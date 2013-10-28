@@ -1,52 +1,3 @@
-var plugin = {
-  pluginObj:document.getElementById('pluginObj'),
-
-  autoSave:function (data, title, path) {
-    return this.pluginObj.AutoSave(data, title, path);
-  },
-
-  openSavePath:function (path) {
-    this.pluginObj.OpenSavePath(path);
-  },
-
-  getDefaultSavePath:function () {
-    return this.pluginObj.GetDefaultSavePath();
-  },
-
-  saveToClipboard:function (data) {
-    return this.pluginObj.SaveToClipboard(data);
-  },
-
-  captureScreen:function () {
-    this.pluginObj.CaptureScreen();
-  },
-
-  setMessage:function () {
-    var ok = chrome.i18n.getMessage('selectedCaptureOK');
-    var cancel = chrome.i18n.getMessage('cancel');
-    var tipMessage = chrome.i18n.getMessage('capture_screen_tip');
-    if (this.pluginObj.SetMessage)
-      this.pluginObj.SetMessage(ok, cancel, tipMessage);
-  },
-
-  setHotKey:function (keyCode) {
-    return this.pluginObj.SetHotKey(keyCode);
-  },
-
-  disableScreenCaptureHotKey:function () {
-    return this.pluginObj.DisableHotKey();
-  },
-
-  getViewPortWidth:function () {
-    try {
-      return this.pluginObj.GetViewPortWidth();
-    }
-    catch (e) {
-      return null;
-    }
-  }
-};
-
 var screenshot = {
   tab:0,
   canvas:document.createElement("canvas"),
@@ -122,9 +73,6 @@ var screenshot = {
             screenshot.captureWebpage();
           }
           break;
-        case 'original_view_port_width':
-          response(plugin.getViewPortWidth());
-          break;
       }
     });
   },
@@ -140,10 +88,6 @@ var screenshot = {
 
   showSelectionArea:function () {
     screenshot.sendMessage({msg:'show_selection_area'}, null);
-  },
-
-  captureScreen:function () {
-    plugin.captureScreen();
   },
 
   captureWindow:function () {
@@ -365,16 +309,10 @@ var screenshot = {
   },
 
   init:function () {
-    plugin.setMessage();
-    var savePath = plugin.getDefaultSavePath();
-    localStorage.savePath = localStorage.savePath ?
-        localStorage.savePath : savePath;
     localStorage.screenshootQuality = 'png';
 
     screenshot.executeScriptsInExistingTabs();
     screenshot.addMessageListener();
-
-    HotKey.setup(plugin);
 
     if(!localStorage.qm_installed) {
       localStorage.qm_installed = true;

@@ -248,15 +248,7 @@ var page = {
   },
 
   getOriginalViewPortWidth:function () {
-    chrome.extension.sendRequest({ msg:'original_view_port_width'},
-        function (originalViewPortWidth) {
-          if (originalViewPortWidth) {
-            page.originalViewPortWidth = page.hasScrollBar('y') ?
-                originalViewPortWidth - page.defaultScrollBarWidth : originalViewPortWidth;
-          } else {
-            page.originalViewPortWidth = document.documentElement.clientWidth;
-          }
-        });
+      page.originalViewPortWidth = document.documentElement.clientWidth;
   },
 
   calculateSizeAfterZooming:function (originalSize) {

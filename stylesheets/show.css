@@ -375,6 +375,8 @@ button.green:hover span {
   display: block;
   padding-left: 50px;
   height: 42px;
+  font-size: 14px;
+  line-height: 14px;
 }
 
 .awesome-clock {

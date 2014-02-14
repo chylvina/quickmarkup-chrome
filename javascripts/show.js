@@ -1,15 +1,3 @@
-/// init event listener
-configEventListener('doMarkup');
-configEventListener('doUpload');
-configEventListener('doSave');
-configEventListener('doCopy');
-
-function configEventListener(objID) {
-	document.getElementById(objID).addEventListener('click', toDo, false);
-	document.getElementById(objID).addEventListener('mouseover', onMouseOver, false);
-	document.getElementById(objID).addEventListener('mouseout', onMouseOut, false);
-}
-
 // Google Analytics
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-20877394-1']);
@@ -19,6 +7,19 @@ _gaq.push(['_trackPageview']);
   ga.src = 'https://ssl.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
+
+/// init event listener
+var configEventListener = function (objID) {
+  _gaq.push(['_trackEvent', objID, 'clicked']);
+	document.getElementById(objID).addEventListener('click', toDo, false);
+	document.getElementById(objID).addEventListener('mouseover', onMouseOver, false);
+	document.getElementById(objID).addEventListener('mouseout', onMouseOut, false);
+}
+
+configEventListener('doMarkup');
+configEventListener('doUpload');
+configEventListener('doSave');
+configEventListener('doCopy');
 
 /// init UI
 if(!document.getElementById('pluginobj').SaveScreenshot) {

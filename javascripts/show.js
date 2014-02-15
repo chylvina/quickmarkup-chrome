@@ -21,6 +21,17 @@ configEventListener('doUpload');
 configEventListener('doSave');
 configEventListener('doCopy');
 
+/// init ad
+var request = new XMLHttpRequest();  
+request.open('GET', 'https://s3-ap-northeast-1.amazonaws.com/chrome-promotion/index.html', true);  
+request.send();
+
+request.onreadystatechange = function(){
+  if(request.status == '200') {
+   $('ad-frame').style.display = 'block'; 
+  }
+};
+
 /// init UI
 if(!document.getElementById('pluginobj').SaveScreenshot) {
 	($("doSave").style.display = "none");

@@ -69,7 +69,6 @@ i18nReplace("tip_markup4" , "tip_markup4");
 i18nReplace("tip_upload" , "tip_upload");
 i18nReplace("tip_save" , "tip_save");
 i18nReplace("tip_copy" , "tip_copy");
-i18nReplace("promotiontip" , "promotiontip");
 
 // get image
 var bg = chrome.extension.getBackgroundPage();

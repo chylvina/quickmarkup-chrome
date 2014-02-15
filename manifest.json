@@ -40,7 +40,7 @@
   }
 	],
 	"permissions": ["tabs", "<all_urls>", "notifications", "contextMenus"],
-	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self' https://cdn.quick-markup.com https://d1vux6a1qckdp3.cloudfront.net",
+	"content_security_policy": "script-src 'self' 'unsafe-eval' https://pagead2.googlesyndication.com https://ssl.google-analytics.com; object-src 'self' https://cdn.quick-markup.com https://d1vux6a1qckdp3.cloudfront.net",
 	"plugins": [ {
 	  "path": "plugin/screen_capture.dll"
 	}, {

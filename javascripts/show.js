@@ -8,6 +8,9 @@ _gaq.push(['_trackPageview']);
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
+/// Google Adsense
+(adsbygoogle = window.adsbygoogle || []).push({});
+
 /// init event listener
 var configEventListener = function (objID) {
   _gaq.push(['_trackEvent', objID, 'clicked']);

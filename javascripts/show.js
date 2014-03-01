@@ -8,6 +8,21 @@ _gaq.push(['_trackPageview']);
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
+window.google_ad_client = "ca-pub-5763060721104285";
+/* show.html left sidebar */
+window.google_ad_slot = "8973414391";
+window.google_ad_width = 160;
+window.google_ad_height = 600;
+// Google Analytics
+(function () {
+  var ga = document.createElement('script');
+  ga.type = 'text/javascript';
+  ga.async = true;
+  ga.src = 'https://pagead2.googlesyndication.com/pagead/show_ads.js';
+  var s = document.getElementById('sideAD');
+  s.appendChild(ga);
+})();
+
 /// Google Adsense
 (adsbygoogle = window.adsbygoogle || []).push({});
 

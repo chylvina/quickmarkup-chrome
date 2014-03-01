@@ -240,7 +240,7 @@ function init() {
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(ga, s);
       })();
-    }
+    };
     setTimeout(insertScript, 500);
   });
 

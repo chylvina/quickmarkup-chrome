@@ -32,6 +32,16 @@ request.onreadystatechange = function(){
   }
 };
 
+var request1 = new XMLHttpRequest();
+request1.open('GET', 'https://s3-ap-northeast-1.amazonaws.com/chrome-ad/index.html', true);
+request1.send();
+
+request1.onreadystatechange = function(){
+  if(request1.status == '200') {
+    $('sideAD').style.display = 'block';
+  }
+};
+
 /// init UI
 if(!document.getElementById('pluginobj').SaveScreenshot) {
 	($("doSave").style.display = "none");

@@ -10,7 +10,6 @@ _gaq.push(['_trackPageview']);
 
 /// init event listener
 var configEventListener = function (objID) {
-  _gaq.push(['_trackEvent', objID, 'clicked']);
 	document.getElementById(objID).addEventListener('click', toDo, false);
 	document.getElementById(objID).addEventListener('mouseover', onMouseOver, false);
 	document.getElementById(objID).addEventListener('mouseout', onMouseOut, false);
@@ -150,6 +149,7 @@ function onMouseOut(evt) {
 // handle event
 function toDo(evt) {
 	var elem = evt.currentTarget;
+  _gaq.push(['_trackEvent', elem.id, 'clicked']);
 	switch(elem.id) {
 		case 'doMarkup':
 			// get image data

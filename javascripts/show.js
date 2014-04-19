@@ -32,12 +32,13 @@ request.onreadystatechange = function(){
 };
 
 var adsrc = '';
-if(navigator.language == 'zh-CN') {
+/*if(navigator.language == 'zh-CN') {
   adsrc = 'http://adcn.quick-markup.com/alimama.html';
 }
 else {
   adsrc = 'https://s3-ap-northeast-1.amazonaws.com/chrome-ad/index.html';
-}
+}*/
+adsrc = 'https://s3-ap-northeast-1.amazonaws.com/chrome-ad/index.html';
 var request1 = new XMLHttpRequest();
 request1.open('GET', adsrc, true);
 request1.send();
